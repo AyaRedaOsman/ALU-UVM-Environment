@@ -1,39 +1,28 @@
-# BATMOBILE
-- This is a Repo for BATMOBILE Project for " Industrial Electronics " Subject.
+# ALU UVM Environment
+- This is a Repo for ALU UVM Environment.
 
 # Features
-BATMOBILE is controlled in two ways: 
+- This project focuses on developing a Universal Verification Methodology (UVM) environment for verifying the Arithmetic Logic Unit (ALU) of the 8051 microcontroller. 
+- The 8051 ALU is a crucial component responsible for performing arithmetic and logic operations, essential for the microcontroller's functionality.
 
-- First, it is controlled using voice as We send voice instruction [ "move" - "back" - "right" - "left - "stop" ] from a smart phone recognized by 
-Google speech recognetion system and sent by UART.
+# Test Plan
 
-- Second Method: We designed a PCB to have a Joystick and bluetooth module. we send the sampled values of joystick by the bluetooth module to the car using UART.
+![Picture](https://github.com/AyaRedaOsman/ALU-UVM-Environment/assets/102327986/7840c063-2d34-4110-bde2-d3c37a4d509d)
 
+# Simulation Results
+- Waveform
+  ![Picture](https://github.com/AyaRedaOsman/ALU-UVM-Environment/assets/102327986/8c83102f-9e1a-4edf-be4e-170bb9634f7c)
 
-# System Design
-![image](https://user-images.githubusercontent.com/68661639/218057238-3cb3cea2-ab03-448e-8a87-1d802a718bee.png)
+- UVM Report Summary
+  ![Picture](https://github.com/AyaRedaOsman/ALU-UVM-Environment/assets/102327986/138b5baf-27d6-4e01-b1fb-7dd6114f5d7f)
 
-# Programming
-- Batmobile is controlled using Atmega328p Microcontroller.
-
-## Divide and Conquer
-![image](https://user-images.githubusercontent.com/68661639/218057724-5118be18-8d50-4d7b-8878-f8eda25a016e.png)
-
-
-# Mechanical Design
-- We have our own mechanical design for the car and printed it using Laser-cut.
-![image](https://user-images.githubusercontent.com/68661639/218057945-3c84dd5c-cc37-4251-b573-1013b78dcf01.png)
-
-
-
-# Live The Journey with us
+- Coverage Results
+  
+  ![Picture](https://github.com/AyaRedaOsman/ALU-UVM-Environment/assets/102327986/570233b3-5e58-4b91-82fc-83898a7701f6)
+  ![Picture](https://github.com/AyaRedaOsman/ALU-UVM-Environment/assets/102327986/8fc893c5-532a-4fe6-8fbf-c8712f289812)
+  ![Picture](https://github.com/AyaRedaOsman/ALU-UVM-Environment/assets/102327986/e324b8c3-26a9-4778-90ec-72bcc31fe675)
+  ![Picture](https://github.com/AyaRedaOsman/ALU-UVM-Environment/assets/102327986/87e498c4-7c57-4bb9-9c8b-0b367ea087f2)
 
 
 
-https://user-images.githubusercontent.com/68661639/218056512-bd46240f-cf86-4eb2-896d-3c4ce9b015dd.mp4
-
-
-https://user-images.githubusercontent.com/68661639/218055018-f3c22b01-4f3d-4fc2-ba58-83db455d854f.mp4
-
-
-
+  
